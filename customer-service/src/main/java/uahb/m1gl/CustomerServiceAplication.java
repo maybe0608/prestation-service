@@ -1,7 +1,11 @@
 package uahb.m1gl;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class CustomerServiceAplication {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        SpringApplication.run(CustomerServiceAplication.class,args);
     }
 }

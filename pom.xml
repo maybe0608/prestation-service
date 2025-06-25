@@ -17,6 +17,7 @@
 		<module>customer-service</module>
 		<module>compte-service</module>
 		<module>commande-service</module>
+		<module>kafka-service</module>
 	</modules>
 	<packaging>pom</packaging>
 	<url/>
